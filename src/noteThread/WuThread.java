@@ -50,18 +50,13 @@ public class WuThread extends Thread{
      * 2 sleep(): 使当前线程休眠一段时间，以毫秒为单位
      * 3 join(): 在一个线程中调用另外的线程join()方法，使当前线程阻塞，等待另一个线程执行完后再进入可执行状态
      * 4 interrupt(): 将解除线程的堵塞状态
+     * 5 isAlive(): 判断当前线程是否处于可运行状态或运行状态
+     *
+     * 线程优先级
+     * - getPriority:获取当前线程的优先级
+     * - setPriority:设置当前线程的优先级 参数 1-10
      */
     public void testThread(){
-        String threadName = Thread.currentThread().getName();
-        for(int i=0;i<10;i++){
-            System.out.println(threadName+":"+i);
-        }
-    }
-}
-
-class WuSmallThread implements Runnable{
-    @Override
-    public void run() {
         String threadName = Thread.currentThread().getName();
         for(int i=0;i<10;i++){
             System.out.println(threadName+":"+i);
