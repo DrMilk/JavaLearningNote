@@ -1,10 +1,9 @@
-package notecollection;
+package noteCollection;
 
-import testres.Person;
+import noteTest.Person;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 /**

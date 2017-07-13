@@ -1,6 +1,4 @@
-package noteio;
-
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
+package noteIo;
 
 import java.io.*;
 

@@ -1,16 +1,16 @@
-package testres;
+package noteTest;
 
 /**
  * Created by Administrator on 2017/6/29.
  */
 
-public class Person implements Comparable{
+public class Person1 {
     private String name;
     private Integer weight;
     private Integer height;
     private Boolean sex;
-    public Person(){}
-    public Person(String name, int weight, int height, boolean sex) {
+    public Person1(){}
+    public Person1(String name, int weight, int height, boolean sex) {
         this.name = name;
         this.weight = weight;
         this.height = height;
@@ -60,21 +60,11 @@ public class Person implements Comparable{
     }
 
     @Override
-    public int compareTo(Object o) {
-        if(o instanceof Person){
-            Person person= (Person) o;
-            return this.height.compareTo(person.height);
-        }else {
-            throw new ClassCastException("不能转为Person对象");
-        }
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Person person = (Person) o;
+        Person1 person = (Person1) o;
 
         if (name != null ? !name.equals(person.name) : person.name != null) return false;
         if (weight != null ? !weight.equals(person.weight) : person.weight != null) return false;

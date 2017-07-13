@@ -1,7 +1,7 @@
-package notecollection;
+package noteCollection;
 
-import testres.Person;
-import testres.Person1;
+import noteTest.Person;
+import noteTest.Person1;
 
 import java.util.*;
 

@@ -1,6 +1,6 @@
 package noteThread;
 
-import testres.Person;
+import noteTest.Person;
 
 /**
  * Created by Administrator on 2017/7/10.

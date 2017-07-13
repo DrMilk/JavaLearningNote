@@ -1,6 +1,6 @@
-package notecollection;
+package noteCollection;
 
-import testres.Person;
+import noteTest.Person;
 
 import java.util.ArrayList;
 import java.util.Collection;

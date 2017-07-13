@@ -1,4 +1,4 @@
-package noteio;
+package noteIo;
 
 import java.io.File;
 import java.io.IOException;

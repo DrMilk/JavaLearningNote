@@ -1,6 +1,6 @@
-package noteexception;
+package noteException;
 
-import testres.Person;
+import noteTest.Person;
 
 /**
  * Created by Administrator on 2017/7/3.
