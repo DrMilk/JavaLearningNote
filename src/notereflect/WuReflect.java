@@ -47,4 +47,15 @@ public class WuReflect {
         Object object = aClass.newInstance();
         System.out.println(object);
     }
+
+    /**
+     * 获取当前类的父类
+     */
+
+    public void testGetSuperClass() throws ClassNotFoundException {
+        String classname = "java.lang.String";
+        Class clazz = Class.forName(classname);
+        Class superclazz = clazz.getSuperclass();
+        System.out.println(superclazz);
+    }
 }
