@@ -5,4 +5,7 @@ package notedesignmedol;
  * 工厂模式
  */
 public class WuFactory {
+    public void testWuFactory(){
+
+    }
 }
