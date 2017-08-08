@@ -6,12 +6,13 @@ import notearithmetic.WuSelectionSort;
 import notecommon.WuMath;
 import notereflect.WuClassLoader;
 import notereflect.WuReflect;
+import notethread.WuThreadPool;
 
 public class Main {
 
     public static void main(String[] args) {
-        WuInsertionSort wuSelectionSort = new WuInsertionSort();
-        wuSelectionSort.testWuInsertionSort();
+        WuThreadPool test= new WuThreadPool();
+        test.testNewCachedThreadPool();
     }
 
 
