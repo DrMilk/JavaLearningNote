@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         WuThreadPool test= new WuThreadPool();
-        test.testNewCachedThreadPool();
+      test.testNewFixedThreadPool();
     }
 
 
