@@ -1,6 +1,5 @@
-package face;
+package writtentest;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**

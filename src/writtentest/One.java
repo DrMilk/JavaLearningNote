@@ -1,11 +1,9 @@
-package face;
+package writtentest;
 
 /**
  * Created by Administrator on 2017/8/12.
  */
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class One {

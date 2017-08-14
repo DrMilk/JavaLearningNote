@@ -1,4 +1,4 @@
-package face;
+package writtentest;
 
 import java.util.Scanner;
 
